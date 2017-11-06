@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--   komentarze w brackets za pomoca cmd + / -->
+    <!--komentarze nie sa widoczne na stronie ale sa widoczne w strukturze -->
+    <!--komentarzami opisujemy posczegolne bloki kodu-->
+<!--nawigacja start -->
+<nav>
+    <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+    </ul>
+</nav>
+<!--nawigacja end -->
+<!--elementy blokowe, rozciagaja sie (szerokosc) na pelna szerokosc dostepnego miejsca w oknie przegladarki (100%). Jezeli sa puste (brak contentu)-->
+<!--elementy liniowe, zajmują tyle miejsca ile zawarta w nich tresc, domyslnie ustawiaja sie jeden obok drugiego-->
+<!--bloki określają struktuję strony według kolejności-->
+<div>
+    <a href="">link</a>
+    <a href="">link</a>
+    <a href="">link</a>
+    <a href="">link</a>
+    <a href="">link</a>
+</div>
+
+<!--do tworzenia formularza uzywamy znaczynika form-->
+<div id="formularz">
+    <form action="" method="">
+        <!-- input typu text, przyjmuje wartosci-->
+        <input type="text" placeholder="text"><br>
+        <!-- do grupowania inputow typu radio, potrzebujemy dla kazdego z nich uzyc atrybutu name z ta sama wartoscia-->
+        <!-- atrybut value przy inputach, moze byc potrzebny do skryptu .php, ktory odpalany jest przy wysylaniu formularza(z atrybutu action)-->
+        <input type="radio" name="age">-18
+        <input type="radio" name="age">18
+        <input type="radio" name="age">18+
+        <!-- input type number/tel(tylko dla safari) pozwala na wpisanie TYLKO wartosci liczbowych (i znakow specjalnych jak + -) -->
+        <input type="number" placeholder="numer">
+        <input type="tel" placeholder="numer telefonu"> 
+        <!-- input type email zaznacza ze w tym miejscu bedzie wpisany email-->
+        <input type="email" placeholder="email">
+        
+<!--        atrybut name potrzebny jest do zdefiniowania nazwy konkretnego pola formularza-->
+  <input type="text" name="firstName"><br>
+  <input type="text" name="lastName"><br>
+  
+<!--  atrybut placeholder sluzy do opisania konkretnego inputa (opis pojawi sie wewnatrz niego)-->
+  <input type="text" name="birthday" placeholder="wpisz date urodzin">
+   
+    </form>
+
+</div>
+
+</body>
+
+</html>
